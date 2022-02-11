@@ -1,0 +1,28 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "lr-webpart-hide-show-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/lrWebpartHideShow/LrWebpartHideShowWebPart.js",
+          "manifest": "./src/webparts/lrWebpartHideShow/LrWebpartHideShowWebPart.manifest.json"
+        }
+      ]
+    },
+    "demo-carousel-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/demoCarousel/DemoCarouselApplicationCustomizer.js",
+          "manifest": "./src/extensions/demoCarousel/DemoCarouselApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "LrWebpartHideShowWebPartStrings": "lib/webparts/lrWebpartHideShow/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
+    "DemoCarouselApplicationCustomizerStrings": "lib/extensions/demoCarousel/loc/{locale}.js"
+  }
+}

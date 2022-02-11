@@ -1,0 +1,30 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "initialPage": "https://lrgnp.sharepoint.com/sites/TestMigration/SitePages/NewsPage.aspx",
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://lrgnp.sharepoint.com/sites/TestMigration/SitePages/NewsPage.aspx",
+      "customActions": {
+        "13531299-2ad2-4972-a6e1-ec5e57465ccd": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "cssUrl": "/sites/TestMigration/SiteAssets/carouselCSS.css"
+          }
+        }
+      }
+    },
+    "demoCarousel": {
+      "pageUrl": "https://lrgnp.sharepoint.com/sites/TestMigration/SitePages/NewsPage.aspx",
+      "customActions": {
+        "13531299-2ad2-4972-a6e1-ec5e57465ccd": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "cssUrl": "/sites/TestMigration/SiteAssets/carouselCSS.css"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="DemoCarousel"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="13531299-2ad2-4972-a6e1-ec5e57465ccd"
+        ClientSideComponentProperties="{&quot;cssUrl&quot;:&quot;/sites/TestMigration/SiteAssets/carouselCSS.css&quot;}">
+    </CustomAction>
+</Elements>
